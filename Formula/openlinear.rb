@@ -1,26 +1,26 @@
 class Openlinear < Formula
   desc "Telegram-native project tracker rendered as one editable rich message"
   homepage "https://github.com/loutab4k/OpenLinear"
-  version "0.2.2"
+  version "0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/loutab4k/OpenLinear/releases/download/v0.2.2/openlinear-v0.2.2-darwin-arm64"
-      sha256 "363287ebe1bcfcb21c58a77201e4b4798aeb195f0fd615ce1d64db5ff0328262"
+      url "https://github.com/loutab4k/OpenLinear/releases/download/v0.3/openlinear-v0.3-darwin-arm64"
+      sha256 "2055351c1567d1a2efffb6c56fa4b6bdea55e8ab613fc86ea0516813bcd4d35e"
     else
-      url "https://github.com/loutab4k/OpenLinear/releases/download/v0.2.2/openlinear-v0.2.2-darwin-amd64"
-      sha256 "7daacb0281cc6e02e3f9c617f36c720d845e42d2eb5e48f9a2c5b6edc616b233"
+      url "https://github.com/loutab4k/OpenLinear/releases/download/v0.3/openlinear-v0.3-darwin-amd64"
+      sha256 "21862ce9708614d46ba8b074a06bc2f30ad5b1a7a9ccee216f61f2a81f326233"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/loutab4k/OpenLinear/releases/download/v0.2.2/openlinear-v0.2.2-linux-arm64"
-      sha256 "acc90f1776bbcf69dda8e0af500dd63628a95d5a7c7cbce78a4127be56ae9805"
+      url "https://github.com/loutab4k/OpenLinear/releases/download/v0.3/openlinear-v0.3-linux-arm64"
+      sha256 "b78ef4253d675354bd5c86a02dc9ea73b345d977fa5a4372c542996fa079e230"
     else
-      url "https://github.com/loutab4k/OpenLinear/releases/download/v0.2.2/openlinear-v0.2.2-linux-amd64"
-      sha256 "ea3db1763d126db6a156be0399a877ebc55d1e07dcf2db5542588ff2f66feb0c"
+      url "https://github.com/loutab4k/OpenLinear/releases/download/v0.3/openlinear-v0.3-linux-amd64"
+      sha256 "55569c5ee98fd9b4580b19a23843c2f73cec762942ed83f7439294525371fc6f"
     end
   end
 
